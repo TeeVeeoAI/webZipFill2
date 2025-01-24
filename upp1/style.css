@@ -1,0 +1,64 @@
+body{
+    background: #aea496;
+    padding: 0;
+    margin: 0;
+}
+
+#flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.dice{
+    width: 15%;
+    height: 15%;
+}
+
+button{
+    width: 40%;
+    height: 20%;
+    background: #a3f;
+    border-radius: 125px;
+}
+
+p{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+
+.CBox{
+    top: 145px;
+    position: absolute;
+    --left: 0%;
+    --left-: -0%;
+    left: var(--left);
+    translate: var(--left-);
+}
+
+#CBoxD1{
+    --left: 11%;
+    --left-: -11%;
+}
+
+#CBoxD2{
+    --left: 30.5%;
+    --left-: -30.5%;
+}
+
+#CBoxD3{
+    --left: 50%;
+    --left-: -50%;
+}
+
+#CBoxD4{
+    --left: 69%;
+    --left-: -69%;
+}
+
+#CBoxD5{
+    --left: 88.5%;
+    --left-: -88.5%;
+}
